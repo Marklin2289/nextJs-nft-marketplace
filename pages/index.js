@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { useMoralis, useMoralisQuery } from "react-moralis"
 import styles from "../styles/Home.module.css"
+import { useMoralisQuery, useMoralis } from "react-moralis"
 import NFTBox from "../components/NFTBox"
 
 export default function Home() {
@@ -14,9 +14,9 @@ export default function Home() {
     console.log(listedNfts)
 
     return (
-        <div className="contrainer mx-auto">
+        <div className="container mx-auto">
             <h1 className="py-4 px-4 font-bold text-2xl">Recently Listed</h1>
-            <div>
+            <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
                     fetchingListedNfts ? (
                         <div>Loading...</div>
@@ -25,28 +25,20 @@ export default function Home() {
                             console.log(nft.attributes)
                             const { price, nftAddress, tokenId, marketplaceAddress, seller } =
                                 nft.attributes
-                            return
-                            ;<NFTBox
-                                price={price}
-                                nftAddress={nftAddress}
-                                tokenId={tokenId}
-                                marketplaceAddress={marketplaceAddress}
-                                seller={seller}
-                                key={`${nftAddress}${tokenId}`}
-                            />
-                            {
-                                /* <h3>price={price}</h3>
-                                    <h3>nftAddress={nftAddress}</h3>
-                                    <h3>tokenId={tokenId}</h3>
-                                    <h3>marketplaceAddress={marketplaceAddress}</h3>
-                                    <h3>seller={seller}</h3>
-                                    <h3>key={`${nftAddress}${tokenId}`}</h3>
-                                </NFTBox> */
-                            }
+                            return (
+                                <NFTBox
+                                    price={price}
+                                    nftAddress={nftAddress}
+                                    tokenId={tokenId}
+                                    marketplaceAddress={marketplaceAddress}
+                                    seller={seller}
+                                    key={`${nftAddress}${tokenId}`}
+                                />
+                            )
                         })
                     )
                 ) : (
-                    <div>Web3 Currently NOT Enable</div>
+                    <div>Web3 Currently Not Enabled</div>
                 )}
             </div>
         </div>
