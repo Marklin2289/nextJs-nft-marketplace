@@ -52,5 +52,77 @@
     "files": [
       "static/chunks/node_modules_web3auth_wallet-connect-v1-adapter_dist_walletConnectV1Adapter_esm_js.js"
     ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonColored.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonColored.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonColored_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonColored2.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonColored2.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonColored2_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonCustom.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonCustom.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonCustom_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonCustom2.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonCustom2.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonCustom2_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonOutline.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonOutline.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonOutline_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonOutline2.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonOutline2.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonOutline2_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonPrimary.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonPrimary.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonPrimary_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonPrimary2.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonPrimary2.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonPrimary2_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonSecondary.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonSecondary.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonSecondary_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonSecondary2.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonSecondary2.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonSecondary2_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonTranslucent.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonTranslucent.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonTranslucent_js.js"
+    ]
+  },
+  "../node_modules/web3uikit/dist/index.js -> ./ButtonTranslucent2.js": {
+    "id": "../node_modules/web3uikit/dist/index.js -> ./ButtonTranslucent2.js",
+    "files": [
+      "static/chunks/node_modules_web3uikit_dist_ButtonTranslucent2_js.js"
+    ]
   }
 }

@@ -1,4 +1,4 @@
-const Moralis = require("moralis/node")
+const Moralis = require("moralis-v1")
 require("dotenv").config()
 const contractAddresses = require("./constants/networkMapping.json")
 let chainId = process.env.chainId || 31337
