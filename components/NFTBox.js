@@ -136,7 +136,7 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
                         </Card>
                     </div>
                 ) : (
-                    <div>Loading...</div>
+                    <div>Loading page ...</div>
                 )}
             </div>
         </div>
