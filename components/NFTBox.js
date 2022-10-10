@@ -45,6 +45,7 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
         msgValue: price,
         params: {
             nftAddress: nftAddress,
+            // from backend smart contract
             tokenId: tokenId,
         },
     })
